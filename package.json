@@ -1,0 +1,26 @@
+{
+  "name": "ipfs-web",
+  "version": "1.0.0",
+  "description": "IPFS in web browser",
+  "main": "index.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@babel/runtime": "^7.15.4",
+    "@helia/strings": "^1.0.1",
+    "@helia/unixfs": "^1.4.2",
+    "@vue/cli-plugin-babel": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
+    "helia": "^2.0.3",
+    "multiformats": "^12.1.2",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "vue": "^2.6.14",
+    "vue-axios": "^3.2.5",
+    "vue-router": "^3.5.2",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
